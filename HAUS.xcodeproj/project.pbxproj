@@ -32,6 +32,7 @@
 		F955AD7916B248F200652C11 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F955AD7816B248F200652C11 /* Social.framework */; };
 		F955AD7B16B248F900652C11 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F955AD7A16B248F900652C11 /* StoreKit.framework */; };
 		F955AD7D16B2490100652C11 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F955AD7C16B2490100652C11 /* SystemConfiguration.framework */; };
+		F955AD8016B2530200652C11 /* MembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F955AD7F16B2530200652C11 /* MembersViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,8 @@
 		F955AD7816B248F200652C11 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		F955AD7A16B248F900652C11 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		F955AD7C16B2490100652C11 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F955AD7E16B2530200652C11 /* MembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersViewController.h; sourceTree = "<group>"; };
+		F955AD7F16B2530200652C11 /* MembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 				F955AD4C16B244EC00652C11 /* ViewController.h */,
 				F955AD4D16B244EC00652C11 /* ViewController.m */,
 				F955AD3816B244EC00652C11 /* Supporting Files */,
+				F955AD7E16B2530200652C11 /* MembersViewController.h */,
+				F955AD7F16B2530200652C11 /* MembersViewController.m */,
 			);
 			path = HAUS;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				F955AD3E16B244EC00652C11 /* main.m in Sources */,
 				F955AD4216B244EC00652C11 /* AppDelegate.m in Sources */,
 				F955AD4E16B244EC00652C11 /* ViewController.m in Sources */,
+				F955AD8016B2530200652C11 /* MembersViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
