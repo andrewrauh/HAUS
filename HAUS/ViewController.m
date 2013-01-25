@@ -17,7 +17,6 @@
 {
     [super viewDidLoad];
  
-    	// Do any additional setup after loading the view, typically from a nib.
 }
 
 -(void)viewDidAppear:(BOOL)animated {
@@ -37,7 +36,6 @@
         // Present the log in view controller
         [self presentViewController:logInViewController animated:YES completion:NULL];
     }
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -100,7 +98,6 @@
                           cancelButtonTitle:@"ok"
                           otherButtonTitles:nil] show];
     }
-    
     return informationComplete;
 }
 
