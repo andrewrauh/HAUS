@@ -33,6 +33,9 @@
 		F955AD7B16B248F900652C11 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F955AD7A16B248F900652C11 /* StoreKit.framework */; };
 		F955AD7D16B2490100652C11 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F955AD7C16B2490100652C11 /* SystemConfiguration.framework */; };
 		F955AD8016B2530200652C11 /* MembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F955AD7F16B2530200652C11 /* MembersViewController.m */; };
+		F955AD8B16B337B400652C11 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = F955AD8916B337B400652C11 /* chat.png */; };
+		F955AD8C16B337B400652C11 /* chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F955AD8A16B337B400652C11 /* chat@2x.png */; };
+		F955AD8F16B3397400652C11 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F955AD8E16B3397400652C11 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,12 @@
 		F955AD7C16B2490100652C11 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F955AD7E16B2530200652C11 /* MembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersViewController.h; sourceTree = "<group>"; };
 		F955AD7F16B2530200652C11 /* MembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersViewController.m; sourceTree = "<group>"; };
+		F955AD8516B335FE00652C11 /* chatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatCell.h; sourceTree = "<group>"; };
+		F955AD8616B335FE00652C11 /* chatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatCell.m; sourceTree = "<group>"; };
+		F955AD8916B337B400652C11 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		F955AD8A16B337B400652C11 /* chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat@2x.png"; sourceTree = "<group>"; };
+		F955AD8D16B3397400652C11 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F955AD8E16B3397400652C11 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +151,10 @@
 		F955AD3716B244EC00652C11 /* HAUS */ = {
 			isa = PBXGroup;
 			children = (
+				F955AD8916B337B400652C11 /* chat.png */,
+				F955AD8A16B337B400652C11 /* chat@2x.png */,
+				F955AD8516B335FE00652C11 /* chatCell.h */,
+				F955AD8616B335FE00652C11 /* chatCell.m */,
 				F955AD4016B244EC00652C11 /* AppDelegate.h */,
 				F955AD4116B244EC00652C11 /* AppDelegate.m */,
 				F955AD4916B244EC00652C11 /* MainStoryboard.storyboard */,
@@ -150,6 +163,8 @@
 				F955AD3816B244EC00652C11 /* Supporting Files */,
 				F955AD7E16B2530200652C11 /* MembersViewController.h */,
 				F955AD7F16B2530200652C11 /* MembersViewController.m */,
+				F955AD8D16B3397400652C11 /* ProfileViewController.h */,
+				F955AD8E16B3397400652C11 /* ProfileViewController.m */,
 			);
 			path = HAUS;
 			sourceTree = "<group>";
@@ -224,6 +239,8 @@
 				F955AD4616B244EC00652C11 /* Default@2x.png in Resources */,
 				F955AD4816B244EC00652C11 /* Default-568h@2x.png in Resources */,
 				F955AD4B16B244EC00652C11 /* MainStoryboard.storyboard in Resources */,
+				F955AD8B16B337B400652C11 /* chat.png in Resources */,
+				F955AD8C16B337B400652C11 /* chat@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +255,7 @@
 				F955AD4216B244EC00652C11 /* AppDelegate.m in Sources */,
 				F955AD4E16B244EC00652C11 /* ViewController.m in Sources */,
 				F955AD8016B2530200652C11 /* MembersViewController.m in Sources */,
+				F955AD8F16B3397400652C11 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
