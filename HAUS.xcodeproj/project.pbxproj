@@ -18,6 +18,7 @@
 		F955AD4816B244EC00652C11 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F955AD4716B244EC00652C11 /* Default-568h@2x.png */; };
 		F955AD4B16B244EC00652C11 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955AD4916B244EC00652C11 /* MainStoryboard.storyboard */; };
 		F955AD4E16B244EC00652C11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F955AD4D16B244EC00652C11 /* ViewController.m */; };
+		F955AD6316B247F600652C11 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F955AD6216B247F600652C11 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		F955AD4A16B244EC00652C11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F955AD4C16B244EC00652C11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F955AD4D16B244EC00652C11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F955AD6216B247F600652C11 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 				F955AD3216B244EC00652C11 /* UIKit.framework in Frameworks */,
 				F955AD3416B244EC00652C11 /* Foundation.framework in Frameworks */,
 				F955AD3616B244EC00652C11 /* CoreGraphics.framework in Frameworks */,
+				F955AD6316B247F600652C11 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +76,7 @@
 		F955AD3016B244EC00652C11 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F955AD6216B247F600652C11 /* Parse.framework */,
 				F955AD3116B244EC00652C11 /* UIKit.framework */,
 				F955AD3316B244EC00652C11 /* Foundation.framework */,
 				F955AD3516B244EC00652C11 /* CoreGraphics.framework */,
@@ -254,6 +258,10 @@
 		F955AD5216B244EC00652C11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HAUS/HAUS-Prefix.pch";
 				INFOPLIST_FILE = "HAUS/HAUS-Info.plist";
@@ -265,6 +273,10 @@
 		F955AD5316B244EC00652C11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HAUS/HAUS-Prefix.pch";
 				INFOPLIST_FILE = "HAUS/HAUS-Info.plist";
